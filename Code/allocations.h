@@ -1,4 +1,9 @@
 #include <stdlib.h>
 
-void *checkedMalloc(size_t size, char errorMessage[]);
-void *checkedCalloc(size_t numberOfObjects, size_t size, char errorMessage[]);
+#ifndef ALLOCATIONS
+#define ALLOCATIONS
+
+void *checkedMalloc(size_t, char[]);
+void *checkedCalloc(size_t, size_t, char[]);
+
+#endif
