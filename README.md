@@ -12,12 +12,13 @@ https://docs.arduino.cc/learn/communication/wire/
 The data lines (SDA) and clock lines (SCL) should be 
 connected via a level-shifter between Arduino and ESP.  
 The level-shifter should also connect the ground (GND)
-pins.
-ESP32 pins:  
+pins.  
+
+ESP32 pins:
    - SDA: GPIO 21  
    - SCL: GPIO 22
 
-Arduino Uno pins:  
+Arduino Uno pins:
    - SDA: SDA/A4\  
    - SCL: SCL/A5\  
 The Arduino is the device given an address of 1.
