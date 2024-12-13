@@ -7,8 +7,7 @@ Heating subsystem code by Ceto Kim.
 pH subsystem code by Ibraheem Siddiqui.  
 
 
-ESP - Arduino connectivity done with I2C protocol.  
-https://docs.arduino.cc/learn/communication/wire/  
+ESP - Arduino connectivity done with [I2C protocol](https://docs.arduino.cc/learn/communication/wire/).    
 The data lines (SDA) and clock lines (SCL) should be 
 connected via a level-shifter between Arduino and ESP.  
 The level-shifter should also connect the ground (GND)
