@@ -21,5 +21,6 @@ ESP32 pins:
 Arduino Uno pins:
    - SDA: SDA/A4\  
    - SCL: SCL/A5\  
+
 The Arduino is the device given an address of 1.
 
